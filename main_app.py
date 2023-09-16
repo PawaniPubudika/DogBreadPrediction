@@ -19,15 +19,15 @@ col1, col2, col3 = st.columns(3)
 
 # Display the first image and description
 with col1:
-    st.image("/Users/pawanipubudika/Documents/ready/Dog bread prediction/testing data/AdobeStock_2808763-e1665449007319.jpeg", caption="Scottish Deerhound", use_column_width=True)
+    st.image("testing data/AdobeStock_2808763-e1665449007319.jpeg", caption="Scottish Deerhound", use_column_width=True)
 
 # Display the second image and description
 with col2:
-    st.image("/Users/pawanipubudika/Documents/ready/Dog bread prediction/testing data/licensed-image (1).jpeg", caption="Maltese Dog", use_column_width=True)
+    st.image("testing data/licensed-image (1).jpeg", caption="Maltese Dog", use_column_width=True)
 
 # Display the third image and description
 with col3:
-    st.image("/Users/pawanipubudika/Documents/ready/Dog bread prediction/testing data/licensed-image (2).jpeg", caption="Bernese Mountain Dog", use_column_width=True)
+    st.image("testing data/licensed-image (2).jpeg", caption="Bernese Mountain Dog", use_column_width=True)
 
 st.markdown("<h3>Upload an image of the dog</h3>",unsafe_allow_html=True)
 
