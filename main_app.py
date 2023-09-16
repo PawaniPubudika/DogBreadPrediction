@@ -5,7 +5,7 @@ import cv2
 from keras.models import load_model
 
 # Loading the Model
-model = load_model('/Users/pawanipubudika/Documents/ready/Dog bread prediction/src/dog_breed.h5')
+model = load_model('dog_breed.h5')
 
 # Name of Classes
 CLASS_NAMES = ['Scottish Deerhound', 'Maltese Dog', 'Bernese Mountain Dog']
